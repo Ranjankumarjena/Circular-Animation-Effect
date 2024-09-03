@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Carbon Bold";
+    src: url("https://db.onlinewebfonts.com/t/4104a580e6f3e91f7e6b93986bcddafa.eot");
+    src: url("https://db.onlinewebfonts.com/t/4104a580e6f3e91f7e6b93986bcddafa.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4104a580e6f3e91f7e6b93986bcddafa.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4104a580e6f3e91f7e6b93986bcddafa.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4104a580e6f3e91f7e6b93986bcddafa.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4104a580e6f3e91f7e6b93986bcddafa.svg#Carbon Bold")format("svg");
+}
+
+
+
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    color: #B7AB98;
+    font-family: "Neue Montreal";
+    font-weight: 700;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    position: relative;
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    background: #0E0E0E;
+    overflow: hidden;
+    display:noe;
+}
+.nav{
+ padding: 25px 40px;
+ display: flex;
+ align-items: center;
+ justify-content:space-between;
+ 
+}
+.frame{
+  padding: 0px 20px ;
+  height: 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.frame span{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    text-align: center;
+    font-size: 20px;
+    height:25px;
+    padding: 0
+    3vw;
+    transition: cubic-bezier(0.19, 1, 0.22, 1).3s;
+    text-transform: uppercase;
+    cursor: zoom-in;
+}
+.frame:hover.frame span{
+    transform: translateY(-24px);
+}
+.hero{
+    height: 80%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.hero-text{
+    background: ed;
+    z-index: 99;
+    cursor: pointer;
+}
+.hero-text h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 200;
+    color: #B7AB98;
+}
+.text-div{
+    height:140px;
+    width: 100%;
+    background: ed;
+    background-color:ed;
+    overflow: hidden;
+    pointer-events: none;
+    display: block;
+}
+.text-div span{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 155px;
+    text-transform: uppercase;
+    height: 140px;
+    background: yllow;
+    font-weight: 1000;
+    color: #B7AB98;
+}
+#red{
+    color: #EB5939;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background:#EB5939;
+    z-index: 9;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    scale: 0.5;
+    cursor: pointer;
+}
+#two{
+color:  #0E0E0E;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    background: #CDEA68;
+    display: none;
+    font-size:100px;
+    text-transform: capitalize;
+}
+.page2 h1{
+    font-weight: 600;
+    color:black;
+    font-family: "Carbon Bold";
+
+    text-align: center;
+    letter-spacing:-10px;
+}
